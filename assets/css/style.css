@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    border-bottom: 0.7px solid #cccccc;
+    background-color: #ffffff;
+
+
+}
+
+nav {
+    width: 960px;
+    height: 10vh;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.title {
+    float: left;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    line-height: 10vh; 
+    padding:0 5px 0 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.list {
+    float: right;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 10vh;
+}
+
+.list-items {
+    display: inline-block;
+    margin: 0% auto;
+    background-color: #ffffff;
+    padding:0 20px 0 20px;
+    
+}
+.list-items a {
+    color: grey;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(/assets/images/dark-paths/dark-paths/dark.png);
+}
