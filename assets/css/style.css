@@ -9,8 +9,6 @@ header {
     height: 10vh;
     border-bottom: 0.7px solid #cccccc;
     background-color: #ffffff;
-
-
 }
 
 nav {
@@ -51,4 +49,35 @@ nav {
 
 body {
     background-image: url(/assets/images/dark-paths/dark-paths/dark.png);
+    background-attachment: scroll;
+}
+
+.paragraph {
+    margin: 10px auto;
+    width: 960px;
+    background-color: #ffffff;
+}
+
+#header {
+    color: #4aaaa5;
+    
+    padding:10px 0 10px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#text {
+    padding-top: 20px;
+}
+
+hr { 
+    height: .2px;
+    border-color:#dddddd;
+    display: block;
+    margin-top: .5em;
+    margin-bottom: 1em;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: 1px;
 }
